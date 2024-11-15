@@ -1,0 +1,36 @@
+
+#about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #7d1ad3; 
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-heading {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  color: #edf2f7;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about-heading {
+    font-size: 1.875rem; 
+  }
+
+  .about-description {
+    font-size: 1rem; 
+  }
+}

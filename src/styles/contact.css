@@ -1,0 +1,84 @@
+/* Contact Section Styles */
+.contact-section {
+  background-color: #1a202c; /* Dark background for contrast */
+  padding: 5rem 0; /* Top and bottom padding */
+  color: #edf2f7; /* Light text color for contrast */
+}
+
+.contact-container {
+  max-width: 800px; /* Max width to limit container size */
+  margin: 0 auto; /* Center the container */
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 2.5rem; /* Large heading */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #f7fafc; /* Light color for the heading */
+}
+
+.contact-description {
+  font-size: 1.125rem; /* Medium size for description */
+  margin-bottom: 2rem;
+  color: #cbd5e0; /* Subtle color for the description */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Space between form elements */
+  max-width: 500px; /* Limit form width */
+  margin: 0 auto; /* Center the form */
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%; /* Full width inputs */
+  padding: 1rem;
+  border-radius: 0.375rem; /* Rounded borders */
+  border: 1px solid #4a5568; /* Subtle border color */
+  background-color: #2d3748; /* Dark input background */
+  color: #edf2f7; /* Light text color */
+  font-size: 1rem;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  outline: none;
+  border-color: #9f7aea; /* Light purple border on focus */
+}
+
+.contact-button {
+  background-color: #ed64a6; /* Vibrant pinkish color */
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.375rem; 
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.contact-button:hover {
+  background-color: #9f7aea; 
+  transform: scale(1.05);
+}
+
+.contact-button:focus {
+  outline: none; 
+}
+
+
+@media (max-width: 768px) {
+  .contact-heading {
+    font-size: 2rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+  }
+}
+
+
+
